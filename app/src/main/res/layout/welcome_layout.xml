@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar" />
+    <TextView
+        android:text="@string/welcome_to_alc_4_0"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/about_alc"
+        android:text="@string/about_alc"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:padding="15dp"
+        android:typeface="sans"
+        android:layout_gravity="center"
+        android:background="@drawable/button_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/my_profile"
+        android:typeface="sans"
+        android:text="@string/my_profile"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
